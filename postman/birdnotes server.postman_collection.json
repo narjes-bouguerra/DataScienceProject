@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "cd0bb0f0-2683-4611-8d73-0f555e1e784e",
+		"name": "birdnotes server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "predict '",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"stoderma\",\"model\": \"linear_regression\", \"features\": {\r\n    \"prospect1\": {\"visit_month\": 1, \"potencial\": \"A\", \"activity\": \"P\", \"speciality\": \"Grossiste\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"GINGISEPT BB 250\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 0, \"cumul_visit\": 1, \"moy_satisf\": 4,\r\n                  \"visit_period\": 1, \"frequency\": 0, \"recency\": 1},\r\n    \"prospect2\": {\"visit_month\": 10, \"potencial\": \"A\", \"activity\": \"P\", \"speciality\": \"Grossiste\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"GINGISEPT BB 250\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 100, \"cumul_visit\": 5, \"moy_satisf\": 4,\r\n                  \"visit_period\": 50, \"frequency\": 7, \"recency\": 40},\r\n    \"prospect3\": {\"visit_month\": 10, \"potencial\": \"AC\", \"activity\": \"P\", \"speciality\": \"Grossiste\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"GINGISEPT BB 250\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 100, \"cumul_visit\": 5, \"moy_satisf\": 4,\r\n                  \"visit_period\": 50, \"frequency\":10 , \"recency\": 40}}}"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/predict",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict pharmavision",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"pharmavision\",\"model\": \"random_forest\", \"features\": {\r\n    \"prospect4\": {\"visit_month\": 1, \"potencial\": \"X\", \"activity\": \"P\", \"speciality\": \"Pharmacy\",\r\n                  \"sector\": \"Kairouan 2\", \"locality\": \"SBIKHA\", \"product\": \"BRONCHOKOD ADULTE 300 ML\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 5, \"cumul_cmd\": 0, \"cumul_visit\": 4, \"moy_satisf\": 4,\r\n                  \"visit_period\": 96, \"frequency\": 14, \"recency\": 96}}}"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/predict",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict ''",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"stoderma\",\"model\": \"random_forest\", \"features\": {\r\n    \"prospect4\": {\"visit_month\": 12, \"potencial\": \"A\", \"activity\": \"P\", \"speciality\": \"PHARMACIE\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"MANUGEL STODERMA 120 ml\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 0, \"cumul_visit\": 1, \"moy_satisf\": 4,\r\n                  \"visit_period\": 1, \"frequency\": 0, \"recency\": 1}}}"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/predict",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict '''",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"stoderma\",\"model\": \"linear_regression\", \"features\": {\r\n    \"prospect5\": {\"visit_month\": 12, \"potencial\": \"A\", \"activity\": \"P\", \"speciality\": \"PHARMACIE\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"PAROSEPT  BB 250\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 0, \"cumul_visit\": 2, \"moy_satisf\": 4,\r\n                  \"visit_period\": 10, \"frequency\": 0, \"recency\": 1},\r\n    \"prospect6\": {\"visit_month\": 10, \"potencial\": \"A\", \"activity\": \"P\", \"speciality\": \"Grossiste\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"PAROSEPT  BB 250\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 200, \"cumul_visit\": 2, \"moy_satisf\": 4,\r\n                  \"visit_period\": 100, \"frequency\": 15, \"recency\": 75}}}"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/predict",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict ''''",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"stoderma\",\"model\": \"linear_regression\", \"features\": {\r\n    \"prospect1\": {\"visit_month\": 12, \"potencial\": \"AC\", \"activity\": \"P\", \"speciality\": \"PHARMACIE\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"HALITOL DENT\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 150, \"cumul_visit\": 5, \"moy_satisf\": 4,\r\n                  \"visit_period\": 100, \"frequency\": 27, \"recency\": 29},\r\n    \"prospect2\": {\"visit_month\": 10, \"potencial\": \"B\", \"activity\": \"P\", \"speciality\": \"PHARMACIE\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"HALITOL DENT\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 50, \"cumul_visit\": 2, \"moy_satisf\": 4,\r\n                  \"visit_period\": 50, \"frequency\":25, \"recency\": 27},\r\n    \"prospect3\": {\"visit_month\": 1, \"potencial\": \"C\", \"activity\": \"P\", \"speciality\": \"PHARMACIE\",\r\n                  \"sector\": \"Gabes 1\", \"locality\": \"GABES\", \"product\": \"HALITOL DENT\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 10, \"cumul_visit\": 1, \"moy_satisf\": 4,\r\n                  \"visit_period\": 1, \"frequency\": 0, \"recency\": 1}}}"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/predict",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict '''''",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"stoderma\",\"model\": \"random_forest\", \"features\": {\r\n    \"prospect4\": {\"visit_month\": 12, \"potencial\": \"C\", \"activity\": \"P\", \"speciality\": \"Médecin dentiste\",\r\n                  \"sector\": \"SFAX 2\", \"locality\": \"GREMDA\", \"product\": \"HALITOL DENT\",\r\n                  \"cumul_ech\": 0, \"cumul_sale\": 0, \"cumul_cmd\": 30, \"cumul_visit\": 3, \"moy_satisf\": 4,\r\n                  \"visit_period\": 50, \"frequency\": 15, \"recency\": 49}}}"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/predict",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "comment to score",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer sdfghjkloerdtfyguhiopfghjkl;fghjkl",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"lab_name\":\"stoderma\",\"comment\":\"mise en place\" }"
+				},
+				"url": {
+					"raw": "http://194.163.132.114:9980/comment",
+					"protocol": "http",
+					"host": [
+						"194",
+						"163",
+						"132",
+						"114"
+					],
+					"port": "9980",
+					"path": [
+						"comment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
